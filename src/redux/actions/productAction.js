@@ -2,7 +2,7 @@ import axios from "axios";
 
 import * as actionTypes from '../constants/productConstants';
 
-const URL = '';
+const URL = 'https://my-kart-backend.onrender.com';
 
 export const getProducts = () => async (dispatch) =>{
     try{

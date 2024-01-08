@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url = '';
+const url = 'https://my-kart-backend.onrender.com';
 
 export const authenticateSignup = async (user) => {
     try {
